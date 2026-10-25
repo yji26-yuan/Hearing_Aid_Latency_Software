@@ -1,0 +1,39 @@
+output device: MacBook Pro Speakers (44100 Hz)
+input device:  MacBook Pro Microphone (48000 Hz)
+
+===== 44100 Hz, buffer 256 =====
+open 1: 11/11 chirps,   87.66 ms, spread inside this open 0.00 ms
+open 2: 11/11 chirps,  105.24 ms, spread inside this open 0.00 ms
+open 3: 11/11 chirps,  105.22 ms, spread inside this open 0.00 ms
+open 4: 11/11 chirps,  105.69 ms, spread inside this open 0.00 ms
+open 5: 11/11 chirps,  107.87 ms, spread inside this open 0.00 ms
+
+===== 44100 Hz, buffer 1024 =====
+open 1: 11/11 chirps,  157.44 ms, spread inside this open 0.00 ms
+open 2: 11/11 chirps,  159.30 ms, spread inside this open 0.00 ms
+open 3: 11/11 chirps,  158.05 ms, spread inside this open 0.00 ms
+open 4: 11/11 chirps,  158.05 ms, spread inside this open 0.00 ms
+open 5: 11/11 chirps,  158.68 ms, spread inside this open 0.00 ms
+
+===== 48000 Hz, buffer 256 =====
+open 1: 11/11 chirps,  107.60 ms, spread inside this open 0.00 ms
+open 2: 11/11 chirps,  106.50 ms, spread inside this open 0.00 ms
+open 3: 11/11 chirps,  105.79 ms, spread inside this open 0.00 ms
+open 4: 11/11 chirps,  105.58 ms, spread inside this open 0.00 ms
+open 5: 11/11 chirps,  106.23 ms, spread inside this open 0.00 ms
+
+===== 48000 Hz, buffer 1024 =====
+open 1: 11/11 chirps,  157.69 ms, spread inside this open 0.00 ms
+open 2: 11/11 chirps,  156.60 ms, spread inside this open 0.00 ms
+open 3: 11/11 chirps,  156.44 ms, spread inside this open 0.00 ms
+open 4: 11/11 chirps,  156.88 ms, spread inside this open 0.00 ms
+open 5: 11/11 chirps,  157.73 ms, spread inside this open 0.00 ms
+
+===== summary =====
+rate    buffer  max spread inside one open   median of each open (ms)
+ 44100     256       0.00                     87.66  105.24  105.22  105.69  107.87
+ 44100    1024       0.00                     157.44  159.30  158.05  158.05  158.69
+ 48000     256       0.00                     107.60  106.50  105.79  105.58  106.23
+ 48000    1024       0.00                     157.69  156.60  156.44  156.88  157.73
+
+saved results/stream_stability.csv and results/stream_stability.png

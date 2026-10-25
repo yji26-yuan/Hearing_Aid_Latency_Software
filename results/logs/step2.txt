@@ -1,0 +1,3 @@
+wrote wav/reference.wav and wav/test_recorded.wav (true delay 500 samples)
+sample rate: 44100 Hz
+delay: 500 samples = 11.338 ms

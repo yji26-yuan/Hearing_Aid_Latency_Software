@@ -1,0 +1,6 @@
+output device: MacBook Pro Speakers
+input device:  MacBook Pro Microphone
+sample rate: 44100 Hz, buffer: 256 samples
+peak level of the recording: 0.40357866883277893
+sample rate: 44100 Hz
+delay: 3689 samples = 83.651 ms

@@ -1,0 +1,38 @@
+
+===== rec_256.wav  (48000 Hz, 11 pairs found) =====
+chirp threshold 0.44, 0 chirp(s) skipped because no clap was found
+pair  1: clap   6.675 s -> chirp   6.772 s :   97.17 ms (similarity 0.88)
+pair  2: clap   8.529 s -> chirp   8.624 s :   95.58 ms (similarity 0.87)
+pair  3: clap  12.666 s -> chirp  12.763 s :   97.08 ms (similarity 0.81)
+pair  4: clap  16.610 s -> chirp  16.705 s :   95.19 ms (similarity 0.86)
+pair  5: clap  20.783 s -> chirp  20.879 s :   95.48 ms (similarity 0.87)
+pair  6: clap  25.475 s -> chirp  25.569 s :   93.75 ms (similarity 0.75)
+pair  7: clap  30.152 s -> chirp  30.248 s :   95.98 ms (similarity 0.88)
+pair  8: clap  33.964 s -> chirp  34.056 s :   92.00 ms (similarity 0.69)
+pair  9: clap  38.042 s -> chirp  38.137 s :   94.81 ms (similarity 0.85)
+pair 10: clap  41.889 s -> chirp  41.986 s :   97.15 ms (similarity 0.75)
+pair 11: clap  47.620 s -> chirp  47.716 s :   95.52 ms (similarity 0.81)
+phone: 95.43 +/- 1.48 ms (min 92.00, max 97.17, spread 5.17, n=11)
+one buffer = 5.80 ms, phone + half a buffer (corrected): 98.33 ms
+software loopback (step 4): 105.86 +/- 0.64 ms ; difference -10.43 ms, corrected -7.53 ms
+
+===== rec_1024.wav  (48000 Hz, 13 pairs found) =====
+chirp threshold 0.45, 0 chirp(s) skipped because no clap was found
+pair  1: clap   5.809 s -> chirp   5.951 s :  141.71 ms (similarity 0.89)
+pair  2: clap   9.231 s -> chirp   9.388 s :  156.12 ms (similarity 0.89)
+pair  3: clap  12.563 s -> chirp  12.708 s :  145.42 ms (similarity 0.87)
+pair  4: clap  15.784 s -> chirp  15.936 s :  152.21 ms (similarity 0.83)
+pair  5: clap  19.681 s -> chirp  19.837 s :  155.88 ms (similarity 0.85)
+pair  6: clap  23.255 s -> chirp  23.413 s :  157.50 ms (similarity 0.88)
+pair  7: clap  26.884 s -> chirp  27.035 s :  151.04 ms (similarity 0.88)
+pair  8: clap  30.176 s -> chirp  30.332 s :  156.08 ms (similarity 0.89)
+pair  9: clap  33.657 s -> chirp  33.815 s :  158.15 ms (similarity 0.85)
+pair 10: clap  36.445 s -> chirp  36.602 s :  156.85 ms (similarity 0.87)
+pair 11: clap  39.531 s -> chirp  39.690 s :  158.94 ms (similarity 0.86)
+pair 12: clap  42.848 s -> chirp  43.010 s :  162.19 ms (similarity 0.91)
+pair 13: clap  46.263 s -> chirp  46.424 s :  160.65 ms (similarity 0.90)
+phone: 154.83 +/- 5.64 ms (min 141.71, max 162.19, spread 20.48, n=13)
+one buffer = 23.22 ms, phone + half a buffer (corrected): 166.44 ms
+software loopback (step 4): 158.40 +/- 0.81 ms ; difference -3.57 ms, corrected +8.04 ms
+
+saved results/phone_results.csv and results/phone_vs_software.png

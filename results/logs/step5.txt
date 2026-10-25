@@ -1,0 +1,5 @@
+sample rate: 44100 Hz, 35 runs
+fit: delay = 82.3 ms + 3.71 x buffer duration
+R^2 = 0.9978
+smallest measured delay: 92.7 ms
+fit on buffers <= 1024 only: delay = 88.7 ms + 2.99 x buffer duration

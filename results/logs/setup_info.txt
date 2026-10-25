@@ -1,0 +1,18 @@
+# Setup for the measurements
+ProductName:		macOS
+ProductVersion:		14.2.1
+BuildVersion:		23C71
+      Model Name: MacBook Pro
+      Model Identifier: Mac14,7
+      Chip: Apple M2
+      Memory: 8 GB
+Python 3.13.2
+numpy        2.4.6
+scipy        1.17.1
+matplotlib   3.10.9
+sounddevice  0.5.6
+soundfile    0.14.0
+PortAudio   PortAudio V19.7.0-devel, revision unknown
+output device: MacBook Pro Speakers, 44100 Hz
+input device:  MacBook Pro Microphone, 48000 Hz
+system output volume: 69%

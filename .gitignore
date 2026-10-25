@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Raw recordings stay on this computer (room sound from a private home).
+# results/phone_results.csv keeps what step 7 found in them.
+phone/
+wav/
+
+# old results and files that are no longer used, kept locally only
+archive/

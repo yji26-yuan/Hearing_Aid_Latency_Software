@@ -1,0 +1,37 @@
+buffer 1024, sample rate 44100 Hz, 30 s, live plot off. Ctrl+C stops early.
+output device: MacBook Pro Speakers (44100 Hz)
+input device:  MacBook Pro Microphone (48000 Hz)
+latency reported by the driver: in 149.9 ms + out 53.5 ms = 203.3 ms
+period   1:  158.458 ms  peak=0.300  ratio= 5850.5  glitches=0  OK
+period   2:  158.458 ms  peak=0.310  ratio= 4587.4  glitches=0  OK
+period   3:  158.458 ms  peak=0.319  ratio= 4993.9  glitches=0  OK
+period   4:  158.458 ms  peak=0.348  ratio= 4603.2  glitches=0  OK
+period   5:  158.458 ms  peak=0.312  ratio= 4084.1  glitches=0  OK
+period   6:  158.458 ms  peak=0.357  ratio= 3419.7  glitches=0  OK
+period   7:  158.458 ms  peak=0.343  ratio= 3002.6  glitches=0  OK
+period   8:  158.458 ms  peak=0.298  ratio= 1701.0  glitches=0  OK
+period   9:  158.458 ms  peak=0.306  ratio= 1309.1  glitches=0  OK
+period  10:  158.458 ms  peak=0.307  ratio= 1422.3  glitches=0  OK
+period  11:  158.458 ms  peak=0.343  ratio= 1928.0  glitches=0  OK
+period  12:  158.458 ms  peak=0.328  ratio= 1575.9  glitches=0  OK
+period  13:  158.458 ms  peak=0.290  ratio= 2332.6  glitches=0  OK
+period  14:  158.458 ms  peak=0.377  ratio= 3551.5  glitches=0  OK
+period  15:  158.458 ms  peak=0.348  ratio= 4488.8  glitches=0  OK
+period  16:  158.458 ms  peak=0.343  ratio= 4222.0  glitches=0  OK
+period  17:  158.458 ms  peak=0.331  ratio= 4752.6  glitches=0  OK
+period  18:  158.458 ms  peak=0.322  ratio= 4942.9  glitches=0  OK
+period  19:  158.458 ms  peak=0.288  ratio= 5537.9  glitches=0  OK
+period  20:  158.458 ms  peak=0.309  ratio= 5840.0  glitches=0  OK
+period  21:  158.458 ms  peak=0.313  ratio= 4970.3  glitches=0  OK
+period  22:  158.458 ms  peak=0.346  ratio= 3537.5  glitches=0  OK
+period  23:  158.458 ms  peak=0.328  ratio= 4026.9  glitches=0  OK
+period  24:  158.458 ms  peak=0.329  ratio= 3917.3  glitches=0  OK
+period  25:  158.458 ms  peak=0.323  ratio= 4548.1  glitches=0  OK
+period  26:  158.458 ms  peak=0.320  ratio= 4004.2  glitches=0  OK
+period  27:  158.458 ms  peak=0.320  ratio= 5927.9  glitches=0  OK
+period  28:  158.458 ms  peak=0.337  ratio= 5573.5  glitches=0  OK
+
+===== summary =====
+buffer 1024, 44100 Hz: 28 periods, 28 valid, 0 audio glitches flagged
+latency: 158.46 +/- 0.00 ms (min 158.46, max 158.46); driver reported 203.3 ms
+saved results/realtime_44100_1024.csv and results/realtime_44100_1024.png

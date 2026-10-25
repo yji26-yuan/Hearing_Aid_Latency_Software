@@ -1,0 +1,49 @@
+output device: MacBook Pro Speakers (44100 Hz)
+input device:  MacBook Pro Microphone (48000 Hz)
+sample rate: 44100 Hz
+blocksize=   64 run 1 (try 1):   4112 samples =   93.243 ms  peak=0.402  ratio=13349.7  OK
+blocksize=   64 run 2 (try 1):   4090 samples =   92.744 ms  peak=0.369  ratio=13391.5  OK
+blocksize=   64 run 3 (try 1):   4138 samples =   93.832 ms  peak=0.375  ratio=13289.9  OK
+blocksize=   64 run 4 (try 1):   4122 samples =   93.469 ms  peak=0.412  ratio=11052.9  OK
+blocksize=   64 run 5 (try 1):   4090 samples =   92.744 ms  peak=0.359  ratio=13907.8  OK
+blocksize=  128 run 1 (try 1):   4347 samples =   98.571 ms  peak=0.373  ratio=12582.3  OK
+blocksize=  128 run 2 (try 1):   4291 samples =   97.302 ms  peak=0.356  ratio=12281.5  OK
+blocksize=  128 run 3 (try 1):   4255 samples =   96.485 ms  peak=0.375  ratio=13034.8  OK
+blocksize=  128 run 4 (try 1):   4313 samples =   97.800 ms  peak=0.349  ratio=12997.9  OK
+blocksize=  128 run 5 (try 1):   4309 samples =   97.710 ms  peak=0.364  ratio=12913.1  OK
+blocksize=  256 run 1 (try 1):   4696 samples =  106.485 ms  peak=0.374  ratio= 9944.1  OK
+blocksize=  256 run 2 (try 1):   4619 samples =  104.739 ms  peak=0.351  ratio= 8541.1  OK
+blocksize=  256 run 3 (try 1):   4692 samples =  106.395 ms  peak=0.430  ratio= 7169.6  OK
+blocksize=  256 run 4 (try 1):   4656 samples =  105.578 ms  peak=0.389  ratio= 5405.2  OK
+blocksize=  256 run 5 (try 1):   4679 samples =  106.100 ms  peak=0.379  ratio= 6093.6  OK
+blocksize=  512 run 1 (try 1):   5474 samples =  124.127 ms  peak=0.365  ratio= 7077.6  OK
+blocksize=  512 run 2 (try 1):   5404 samples =  122.540 ms  peak=0.357  ratio= 7775.2  OK
+blocksize=  512 run 3 (try 1):   5402 samples =  122.494 ms  peak=0.333  ratio=10220.8  OK
+blocksize=  512 run 4 (try 1):   5431 samples =  123.152 ms  peak=0.355  ratio=10871.2  OK
+blocksize=  512 run 5 (try 1):   5380 samples =  121.995 ms  peak=0.343  ratio= 8888.4  OK
+blocksize= 1024 run 1 (try 1):   6955 samples =  157.710 ms  peak=0.343  ratio= 8803.3  OK
+blocksize= 1024 run 2 (try 1):   6945 samples =  157.483 ms  peak=0.343  ratio=10283.8  OK
+blocksize= 1024 run 3 (try 1):   6974 samples =  158.141 ms  peak=0.340  ratio= 8370.0  OK
+blocksize= 1024 run 4 (try 1):   7014 samples =  159.048 ms  peak=0.353  ratio= 8946.7  OK
+blocksize= 1024 run 5 (try 1):   7039 samples =  159.615 ms  peak=0.337  ratio= 8861.4  OK
+blocksize= 2048 run 1 (try 1):  11051 samples =  250.590 ms  peak=0.361  ratio= 9368.9  OK
+blocksize= 2048 run 2 (try 1):  10963 samples =  248.594 ms  peak=0.318  ratio=10683.6  OK
+blocksize= 2048 run 3 (try 1):  10995 samples =  249.320 ms  peak=0.315  ratio=10582.4  OK
+blocksize= 2048 run 4 (try 1):  11051 samples =  250.590 ms  peak=0.336  ratio=11122.1  OK
+blocksize= 2048 run 5 (try 1):  11091 samples =  251.497 ms  peak=0.322  ratio=13153.0  OK
+blocksize= 4096 run 1 (try 1):  19012 samples =  431.111 ms  peak=0.338  ratio=13625.4  OK
+blocksize= 4096 run 2 (try 1):  19031 samples =  431.542 ms  peak=0.346  ratio=11658.6  OK
+blocksize= 4096 run 3 (try 1):  19021 samples =  431.315 ms  peak=0.336  ratio=11484.2  OK
+blocksize= 4096 run 4 (try 1):  19029 samples =  431.497 ms  peak=0.344  ratio=14063.9  OK
+blocksize= 4096 run 5 (try 1):  18994 samples =  430.703 ms  peak=0.349  ratio=11800.2  OK
+
+===== summary (mean +/- std, min~max) =====
+blocksize=   64:   93.21 +/-  0.42 ms  (92.74~93.83, n=5)
+blocksize=  128:   97.57 +/-  0.68 ms  (96.48~98.57, n=5)
+blocksize=  256:  105.86 +/-  0.64 ms  (104.74~106.48, n=5)
+blocksize=  512:  122.86 +/-  0.73 ms  (122.00~124.13, n=5)
+blocksize= 1024:  158.40 +/-  0.81 ms  (157.48~159.62, n=5)
+blocksize= 2048:  250.12 +/-  1.03 ms  (248.59~251.50, n=5)
+blocksize= 4096:  431.23 +/-  0.31 ms  (430.70~431.54, n=5)
+
+saved results/latency_results.csv and results/latency_vs_blocksize.png

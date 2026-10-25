@@ -1,0 +1,2 @@
+true delay:      500 samples
+estimated delay: 500 samples = 11.338 ms
